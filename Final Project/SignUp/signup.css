@@ -7,7 +7,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background: #bb2b12;
+  background:url(../images/main-banner-1-1600x700.jpg);
   padding: 0 10px;
 }
 .wrapper{
@@ -23,7 +23,7 @@ body{
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #bb2b12;
+  color: pink;
   text-transform: uppercase;
   text-align: center;
 }
@@ -40,7 +40,7 @@ body{
 
 .wrapper .form .inputfield label{
    width: 200px;
-   color: #757575;
+   color: #111010e3;
    margin-right: 10px;
   font-size: 14px;
 }
@@ -88,7 +88,7 @@ body{
   border: 0px;
   padding: 8px 10px;
   font-size: 15px;
-  border: 1px solid #d5dbd9;
+  border: 1px solid pink;
   border-radius: 3px;
 }
 
@@ -96,7 +96,7 @@ body{
 .wrapper .form .inputfield .input:focus,
 .wrapper .form .inputfield .textarea:focus,
 .wrapper .form .inputfield .custom_select select:focus{
-  border: 1px solid #bb2b12;
+  border: 1px solid pink;
 }
 
 .wrapper .form .inputfield p{
@@ -122,7 +122,7 @@ body{
 .wrapper .form .inputfield .check .checkmark{
   width: 15px;
   height: 15px;
-  border: 1px solid #bb2b12;
+  border: 1px solid pink;
   display: block;
   position: relative;
 }
@@ -139,7 +139,7 @@ body{
   display: none;
 }
 .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-  background: #bb2b12;
+  background: pink;
 }
 
 .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -151,7 +151,7 @@ body{
    padding: 8px 10px;
   font-size: 15px; 
   border: 0px;
-  background:  #bb2b12;
+  background:  pink;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -159,7 +159,7 @@ body{
 }
 
 .wrapper .form .inputfield .btn:hover{
-  background: #bb2b12;
+  background: pink;
 }
 
 .wrapper .form .inputfield:last-child{
