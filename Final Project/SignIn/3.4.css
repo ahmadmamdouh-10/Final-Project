@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: url(pic3.jpeg);
+	background: url(../images/main-banner-1-1600x700.jpg);
 	background-size: cover;
 	font-family: sans-serif;
 	z-index: 0;
@@ -17,7 +17,7 @@ body
 .title h1{
 	margin: 0;
 	padding: 0;
-	color:slategray;
+	color:pink;
 	text-transform: uppercase;
 	font-size: 36px;
 
@@ -37,7 +37,7 @@ body
 	float: left;
 	width: 50%;
 	height: 400px;
-	background: url(pic3.jpeg);
+	background: url(../images/main-banner-1-1600x700.jpg);
 	background-size: cover;
 	box-sizing: border-box;
 	z-index: 1;
