@@ -1,31 +1,228 @@
+<html>
 
-<html><head>
-    <title> Sign In  </title>
-    <link rel="stylesheet" href="../SignIn/3.4.css">
-    <!-- (1) Internal Stylesheet -->
-    <style>
+<head>
+    <title>Account Login</title>
+    <!--Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&display=swap" />
 
-    </style>
+    <!--Css Files-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link href="https://demo.codezeel.com/opencart/OPC07/OPC070154/image/catalog/cart.png" rel="icon" />
+
+    <link rel="stylesheet" href="SignIn/3.4.css">
 </head>
 
 <body>
-    <div class="title"><h1>Sign In</h1></div>
-    <div class="container">
-        <div class="left"></div>
-        <div class="right">
-            <div class="formBox">
-                <form action="home.html" method="GET">
-                    <p>Username</p>
-                    <input type="text" name="" placeholder="Username">
-                    <p>Email</p>
-                    <input type="email" name="" placeholder="Email">
-                    <p>Password</p>
-                    <input type="password" name="" placeholder="Type password">
-                    <br>   
-                    <br>
-                        <input type="submit" name="" value="Login In">
-                </form>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="images/logo.png" alt="logo" draggable="false" />
+                <nav class="navbar">
+                    <ul class="list-unstyled">
+                        <li class="dropdown">
+                            <a class="link-item" href="#">Furniture</a>
+                            <div class="dropdown-menu">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"> Tables </a></li>
+                                    <li><a href="#"> Study Table 1</a></li>
+                                    <li><a href="#"> Study Table 2</a></li>
+                                    <li><a href="#"> Study Table 3</a></li>
+                                    <li><a href="#"> Study Table 4</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"> Tables </a></li>
+                                    <li><a href="#"> Study Table 1</a></li>
+                                    <li><a href="#"> Study Table 2</a></li>
+                                    <li><a href="#"> Study Table 3</a></li>
+                                    <li><a href="#"> Study Table 4</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"> Tables </a></li>
+                                    <li><a href="#"> Study Table 1</a></li>
+                                    <li><a href="#"> Study Table 2</a></li>
+                                    <li><a href="#"> Study Table 3</a></li>
+                                    <li><a href="#"> Study Table 4</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="link-item" href="#"> Armories</a></li>
+                        <li><a class="link-item" href="#"> Study Table</a></li>
+
+                        <li class="dropdown">
+                            <a class="link-item" href="#">Plastic Chair</a>
+                            <div class="dropdown-menu">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"></a></li>
+                                    <div>
+                                        <li><a href="#"> Bookshelves</a></li>
+                                    </div>
+                                    <div>
+                                        <li><a href="#"> Cupboards</a></li>
+                                    </div>
+                                    <div>
+                                        <li><a href="#"> Shoe Racks</a></li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a class="link-item" href="#">Wardrobes</a></li>
+
+                        <li class="dropdown">
+                            <a class="link-item" href="#">More</a>
+                            <div class="dropdown-menu">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"></a></li>
+                                    <div>
+                                        <li><a href="#"> Office Chairs</a></li>
+                                    </div>
+                                    <div>
+                                        <li><a href="#"> Wooden Chair</a></li>
+                                    </div>
+                                    <div>
+                                        <li><a href="#"> Blogs</a></li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- ./navbar-->
+                <div class="login">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-search fa-2x"></i></li>
+                        <li>
+                            <i class="fa fa-user fa-2x"></i>
+                        </li>
+                        <li><i class="fa fa-cart-plus fa-2x"></i> Your Bag</li>
+                    </ul>
+                </div>
+                <!-- ./login -->
             </div>
+            <!-- ./headder-content-->
         </div>
+        <!-- ./container-->
+    </header>
+
+    <nav id="account">
+        <div>
+            <ul>
+                <li><a href="home.html"><i class="fas fa-home"></i></a></li>
+                <li>|</li>
+                <li><a href="#">Account</a></li>
+                <li>|</li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <aside>
+            <table>
+                <tr id="accountsd">
+                    <th>Account</th>
+                </tr>
+                <tr>
+                    <td style="padding-top: 25px;"><a href="">Login</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Register</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Forgotten Password</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">My Account</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Address Book</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Wish List</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Order History</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Downloads</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Recurring Payments</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Reward Points</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Transactions</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Returns</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Newsletter</a></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr id="information">
+                    <th>Information</th>
+                </tr>
+                <tr>
+                    <td style="padding-top: 25px;"><a href="">About Us</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Delivery Information</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Terms & Conditions</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Contact Us</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">Site Map</a></td>
+                </tr>
+            </table>
+        </aside>
+
+        <div id="newCust">
+            <h3>New Custumer</h3>
+            <h5><strong>Register Account</strong></h5>
+            <p>
+                By creating an account you will be able to shop faster,be up to date
+                on an order's status, and keep track of the orders you have
+                previously made.
+            </p>
+            <input class="button" type="button" src="Register.html" value="Continue">
+        </div>
+        <div id="login">
+            <h3>Returning Customer</h3>
+            <h5><strong>I am a returning customer</strong></h5>
+            <form action="home.html" method="GET">
+                <div>
+                    <label>E-Mail Address</label>
+                    <input class="txt" id="email" type="email" name="" placeholder="E-Mail Address">
+                </div>
+
+                <div>
+                    <label>Password</label>
+                    <input class="txt" type="password" name="password" placeholder="Password">
+                </div>
+                <div id="fgtpassdiv">
+                    <a href="" id="fgtpass">Forgotten Password</a>
+                </div>
+                <div>
+                    <input class="button" type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+        <div style="clear: both;"></div>
     </div>
-    
