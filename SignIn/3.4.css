@@ -65,7 +65,7 @@ table tr th {
 	letter-spacing: 0.5px;
 }
 
-#information th {
+#informationLogin th {
 	color: black;
 }
 
@@ -73,8 +73,14 @@ table tr th {
 	background-color: #7b5244;
 }
 
-#information {
+table #informationLogin {
 	background-color: #f6f6f6;
+	
+}
+
+#informtable
+{
+	margin-top: 25px;
 }
 
 table tr td a {

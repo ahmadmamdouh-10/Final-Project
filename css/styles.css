@@ -7,6 +7,7 @@
 body {
     height: auto;
     font-family: "PT Sans", sans-serif;
+    font-size: 13px;
 }
 
 :root {
@@ -26,6 +27,7 @@ a {
 
 .list-unstyled {
     list-style: none;
+    margin-bottom: 30px;
 }
 
 .section-padding {
@@ -618,13 +620,14 @@ section.slider img {
 }
 
 .contact-desc{
-    flex: 2;
+    flex: .7;
+    /* width: 40%; */
     padding: 20px;
     position: relative;
     position: relative;
-    padding-left: 50px;
+    padding-left: 70px;
     margin-bottom: 20px;
-
+    margin-right: 35px;
 }
 
 .contact-desc .top img{
@@ -636,18 +639,23 @@ section.slider img {
     position: relative;
     padding-left: 50px;
     margin-bottom: 20px;
-
 }
-
 
 .contact-desc .top + p{
     line-height:1.9;
-    padding: 40px 0;    
+    padding: 40px 0;  
+    color: #888888;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .7px;
+    line-height: 26px;
+    margin-bottom: 38px;  
 }
 
 
 .information{
-    flex: 1;
+    flex: .5;
+    /* flex: 35% 20% 20% 25%; */
     height: 300px;
     position: relative;
 }
@@ -657,6 +665,7 @@ section.slider img {
     top: 20px;
     left: 15px;
     padding: 20px;
+    padding-left: 0;
 }
 
 .information-table ul li,
@@ -669,9 +678,37 @@ section.slider img {
     padding: 7px;
 }
 
+#emailfooter
+{
+    background-color: black;
+    font-size: 13px;
+    border: 0;
+    border-bottom: 1px solid #3a3a3a;
+    padding: 22px 45px 10px 10px;
+    height: 45px;
+    color: #f6f6f6;
+    font-weight: 400;
+    width: 80%;
+}
 
 
+#emailfooter:focus
+{
+    outline: none;
+    /* border:0;
+    border-bottom: 1px solid #3a3a3a; */
+}
+#Subscribe
+{
+    margin-right: 30px;
+}
 
-
+#emailSend
+{
+    height: 45px;
+    width: 40px;
+    font-size: 32px;
+    font-weight: 100;
+}
 
 
