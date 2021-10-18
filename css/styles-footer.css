@@ -1,0 +1,165 @@
+
+
+:root {
+    --mainColor: #7b5244;
+    --subColor: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.list-unstyled {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-header .line {
+    display: block;
+    width: 100px;
+    margin: auto;
+    height: 2px;
+    background: var(--mainColor);
+    transition: width 0.5s;
+}
+
+.section-header:hover .line {
+    width: 150px;
+
+}
+
+.last-section{
+    background-color:black;
+    color:grey;
+    
+}
+
+
+
+
+
+
+/*.last-section */
+
+.contact-us{
+    margin: 30px 0; 
+    display: flex;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.contact-desc{
+    flex: .7;
+    /* width: 40%; */
+    padding: 20px;
+    position: relative;
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.contact-desc .top img{
+    padding: 5px;
+}
+
+.contact-desc .top span img{
+    padding: 5px;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-desc .top + p{
+    line-height:1.9;
+    padding: 40px 0;  
+    color: #888888;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .7px;
+    line-height: 26px;
+    margin-bottom: 38px;  
+}
+
+
+.information{
+    flex: .5;
+    /* flex: 35% 20% 20% 25%; */
+    height: 300px;
+    position: relative;
+}
+
+.information-table{
+    position:absolute;
+    top: 20px;
+    left: 15px;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.information-table ul li,
+.information-table ul li a {
+    color:grey;
+    padding-bottom: 15px;
+}
+
+.information-table span i{
+    padding: 7px;
+}
+
+#emailfooter
+{
+    background-color: black;
+    font-size: 13px;
+    border: 0;
+    border-bottom: 1px solid #3a3a3a;
+    padding: 22px 45px 10px 10px;
+    height: 45px;
+    color: #f6f6f6;
+    font-weight: 400;
+    width: 80%;
+}
+
+
+#emailfooter:focus
+{
+    outline: none;
+    width: 80%;
+    /* border:0;
+    border-bottom: 1px solid #3a3a3a; */
+}
+#Subscribe
+{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#emailSend
+{
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+
