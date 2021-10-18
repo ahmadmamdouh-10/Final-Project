@@ -10,3 +10,44 @@
 {
     margin-top: 30px;
 }
+
+.imgSide
+{
+    opacity: .7;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgSide:hover
+{
+    opacity: 0.4;
+    transition: opacity 1s;
+    cursor:pointer;
+}
+
+.discount
+{
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+
+.price
+{
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+
+#SpecialsTable div
+{
+    margin: 9px 0px 8px;
+}
