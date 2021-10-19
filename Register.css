@@ -131,7 +131,7 @@ header{
 }
 /* body{aside-section} */
 .body_container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     /* background:cornflowerblue; */
     width: 80%;
@@ -139,7 +139,7 @@ header{
     /* justify-content: center; */
 }
 aside{
-    width: 20%;
+    width: 18%;
 }
 .first,.secound{
     border: 1px solid silver;
@@ -165,9 +165,72 @@ aside{
     font-size: 15px;
     letter-spacing: 0.5px;
 }
-.first >
-section{
+ section{
     width: 80%;
+    /* margin: auto; */
+   
+}
+.first uL,.secound ul{
+    list-style: none;
+    line-height: 35px;
+}
+.first uL >li >a,.secound ul>li>a {
+    text-decoration: none;
+    color: black;  
+    margin: 20px ;
+}
+.section_container{
+    margin: 0 0 0 25px;
+    /* border: 1px solid red; */
+}
+.section_container h1{
+    margin: auto;
+}
+.section_container span{
+    color: silver;
+}
+.section_container a{
+    text-decoration: none;
+    color: black;
+}
+legend{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* form_section */
+.form_content{
+    display: flex;
+    padding: 15px;
+
+}
+.form_content >label{
+    width: 18%;
+    margin-top: 5px;
+    
+}
+.star{
+    color: red !important;
+    font-weight: bold;
+}
+input[type="text"]{
+    /* border: 1px solid; */
+    width: 405%;
+    padding: 10px;
+}
+
+input[value="continue"]{
+    border: 1px solid;
+    padding: 10px 15px;
+    background-color: rgb(95, 44, 20);
+    color: snow;
+    margin-left: 10px;
+    cursor:pointer;
+    font-size: 17px;
+}
+input[value="continue"]:hover{
+    background-color: black;
 }
 
 
