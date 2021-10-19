@@ -6,6 +6,8 @@ body
     line-height: 26px;
     letter-spacing: .5px;
 }
+
+/* Left Side */
 #chairImg
 {
     width: 80%;
@@ -55,6 +57,8 @@ body
     margin: 9px 0px 8px;
 }
 
+/* Content */
+
 .ContentW
 {
     padding: 0px 15px 20px;
@@ -62,6 +66,7 @@ body
     width: 75%;
 }
 
+/* Row Header */
 .ContentW h1{
     color: black;
     margin-bottom: 15px;
@@ -71,6 +76,7 @@ body
     font-weight: 549;
 }
 
+/* left side Header */
 .lftShowSd
 {
     float: left;
@@ -113,6 +119,8 @@ body
 {
     color: #7b5244;
 }
+
+/* right side */
 
 .showSort
 {
@@ -188,6 +196,8 @@ body
     left:50%; 
 } */
 
+
+/* Product */
 .star
 {
     display:block;
@@ -203,7 +213,7 @@ body
 .product-overlay ul li
 {
     width:34px;
-    height: 34px;
+    height: 36px;
 }
 
 .product-info i.active
@@ -219,4 +229,79 @@ body
 .price
 {
     font-weight: 800;
+}
+
+.off
+{
+    background-color: #7b5244;
+    color: #ffffff;
+    /* background: #7b5244; */
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .61px;
+    text-transform: capitalize;
+    position: absolute;
+    padding: 3px 6px;
+    top: 12px;
+    right: 12px;
+    display: block;
+}
+
+.sale
+{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    left: 12px;
+    padding: 2px 7px;
+    position: absolute;
+    text-align: right;
+    text-transform: capitalize;
+    top: 12px;
+    background: #000000;
+    /* display: block; */
+}
+
+.product-overlay ul li
+{
+    background-color: black;
+    cursor: pointer;
+}
+
+.product-overlay ul li:hover
+{
+    background-color: #7b5244;
+}
+
+.product-overlay
+{
+    transition: transform 0.8s
+}
+
+.product-overlay img
+{
+    opacity: .9;
+}
+
+.base:hover
+{
+    opacity: 0;
+}
+
+/* footer Content */
+#footerContent
+{
+    display: inline-block;
+    margin: 10px 0 10px ;
+    margin-bottom: 0;
+    padding-top: 15px;
+    /* padding-bottom: 0; */
+    width: 100%;
+    background: none;
+    border-top: 1px solid #e5e5e5;
+    color: #888;
 }
