@@ -27,6 +27,7 @@ aside {
 
 #account ul li a:hover {
 	text-decoration: underline !important;
+	color: #7b5244;
 }
 
 #account {
@@ -82,16 +83,18 @@ table #informationLogin, #Specials th {
 	margin-top: 25px;
 }
 
-table tr td a {
+table tr td a, .show a{
 	font-size: 13px;
 	color: #262626;
 	font-weight: 400;
 	line-height: 26px;
 	letter-spacing: .5px;
+	cursor: pointer;
 }
 
-table tr td a:hover {
+table tr td a:hover, .show a:hover {
 	color: #7b5244;
+	cursor: pointer;
 }
 
 #newCust,
