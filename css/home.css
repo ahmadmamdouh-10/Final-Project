@@ -669,6 +669,44 @@ section.slider img {
     padding: 7px;
 }
 
+/*Nav Bar*/
+#account ul {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+    #account ul li {
+        display: inline-block;
+        text-decoration: none;
+        padding: 30px 5px;
+    }
+
+        #account ul li a {
+            color: black;
+        }
+
+            #account ul li a:hover {
+                text-decoration: underline !important;
+                color: #7b5244;
+            }
+
+#account {
+    /* height: 100px; */
+    background-color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+#cprights {
+    text-align: center;
+}
+
+
 
 
 
