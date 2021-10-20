@@ -1,0 +1,307 @@
+body
+{
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: .5px;
+}
+
+/* Left Side */
+#chairImg
+{
+    width: 80%;
+    margin-left: 37px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+#SpecialsTable
+{
+    margin-top: 30px;
+}
+
+.imgSide
+{
+    opacity: .7;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgSide:hover
+{
+    opacity: 0.4;
+    transition: opacity 1s;
+    cursor:pointer;
+}
+
+.discount
+{
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.price
+{
+    color: #000000;
+    font-weight: 600;
+}
+
+#SpecialsTable div
+{
+    margin: 9px 0px 8px;
+}
+
+/* Content */
+
+.ContentW
+{
+    padding: 0px 15px 20px;
+    float: left;
+    width: 75%;
+}
+
+/* Row Header */
+.ContentW h1{
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 22px;
+    /* text-transform: capitalize; */
+    font-weight: 549;
+}
+
+/* left side Header */
+.lftShowSd
+{
+    float: left;
+}
+
+.lftShowSd a:hover{
+    color: #7b5244;
+    cursor: pointer;
+}
+
+.lftShowSd i{
+    font-size: 22px;
+    padding: 25px 0px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.lftShowSd i:hover{
+    color: #7b5244;
+}
+
+.lftShowSd i:active{
+    color: #7b5244;
+}
+
+#df
+{
+    color: #7b5244;
+}
+
+.link
+{
+    margin: 0 0;
+    color: rgb(70, 68, 68);
+    font-size: 14px;
+/* margin-bottom: 5px; */
+}
+
+.link:hover
+{
+    color: #7b5244;
+}
+
+/* right side */
+
+.showSort
+{
+    float: right;
+    padding: 18px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+.showSort span{
+    padding-right: 10px;
+}
+
+.showSort label
+{
+    font-size: 13px;
+    font-weight: 700;
+    color: #666565;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.showSort select
+{
+    border: rgb(199, 197, 197) solid 1px;
+    
+    /* opacity: .5; */
+    height: 34px;
+    font-size: 12px;
+    color: black;
+    padding: 10px;
+}
+
+.showSort select:hover, .showSort select:active, .showSort select:default
+{
+    border: rgb(199, 197, 197) solid 1px;
+}
+
+.showSort option
+{
+    color:#888;
+    
+}
+
+.mainhHeader
+{
+    border: none;
+    display: inline-block;
+    /* margin: 10px 0 12px;
+    padding: 0 0 10px; */
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sub
+{
+    display: none;
+}
+
+/* .item 
+{
+    position: relative;
+}
+
+.item img
+{
+    display: block;
+} */
+/* 
+.item i{
+    position: absolute; 
+    bottom:50%; 
+    left:50%; 
+} */
+
+
+/* Product */
+.star
+{
+    display:block;
+    text-align: left;
+}
+
+.products-items img
+{
+    width: 304px;
+    /* height: 00px; */
+}
+
+.product-overlay ul li
+{
+    width:34px;
+    height: 36px;
+}
+
+.product-info i.active
+{
+    color: orange;
+}
+
+.product-info span
+{
+    display: inline-block;
+}
+
+.price
+{
+    font-weight: 800;
+}
+
+.off
+{
+    background-color: #7b5244;
+    color: #ffffff;
+    /* background: #7b5244; */
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .61px;
+    text-transform: capitalize;
+    position: absolute;
+    padding: 3px 6px;
+    top: 12px;
+    right: 12px;
+    display: block;
+}
+
+.sale
+{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    left: 12px;
+    padding: 2px 7px;
+    position: absolute;
+    text-align: right;
+    text-transform: capitalize;
+    top: 12px;
+    background: #000000;
+    /* display: block; */
+}
+
+.product-overlay ul li
+{
+    background-color: black;
+    cursor: pointer;
+}
+
+.product-overlay ul li:hover
+{
+    background-color: #7b5244;
+}
+
+.product-overlay
+{
+    transition: transform 0.8s
+}
+
+.product-overlay img
+{
+    opacity: .9;
+}
+
+.base:hover
+{
+    opacity: 0;
+}
+
+/* footer Content */
+#footerContent
+{
+    display: inline-block;
+    margin: 10px 0 10px ;
+    margin-bottom: 0;
+    padding-top: 15px;
+    /* padding-bottom: 0; */
+    width: 100%;
+    background: none;
+    border-top: 1px solid #e5e5e5;
+    color: #888;
+}
