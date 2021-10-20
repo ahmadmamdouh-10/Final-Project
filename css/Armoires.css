@@ -1,0 +1,186 @@
+
+main{
+    overflow: hidden;
+}
+
+main .left,main .right{
+    display: inline-block;
+    width: fit-content;
+    width: 49.7%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+main .right{
+    text-align: right;
+}
+main .left .fa-th-large{
+    margin-right: 10px;
+}
+main .left .fa-list{
+    margin-right: 10px;
+}
+/* ------------------------------------------------- */
+.product{
+    margin-top: 20px;   
+}
+.product .product-item{
+    position: relative;
+    margin-top: 30px;
+}
+.product .product-item .photo{
+    float: left;
+    width: 29.9%;
+    background-image: url("../images/chair1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
+.product .product-item span{
+    color: white;
+    padding: 2px 5px;
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+}
+.product .product-item span:first-child{
+    background-color: #7b5244;
+
+    right: 10px;
+}
+.product .product-item span:nth-child(2){
+    background-color: #000;
+    left: 10px;
+    display: none;
+}
+.product .product-item .icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.product .product-item .icons .fa-heart,
+.product .product-item .icons .fa-eye,
+.product .product-item .icons .fa-align-left
+ {
+    background-color: #000;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+}
+.product .product-item .details{
+    float: right;
+    width: 69%;
+    margin-left: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.product .product-item .details a{
+    display: block;
+}
+.product .product-item .details  hr{
+    margin: 20px 0 ;
+}
+.product .product-item .details .fa-star{
+    color: #ddd;
+}
+.product .product-item .details p{
+    margin-bottom: 10px;
+}
+.product .product-item .details p:first-of-type{
+    margin-top: 10px;
+}
+.product .product-item .details button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #7b5244;
+    border: none;
+    cursor: pointer;
+}
+.product .product-item .details button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #7b5244;
+    border: none;
+    cursor: pointer;
+}
+.product .product-item .details p{
+    opacity: 0.8;
+}
+main >hr{
+    margin: 20px 0px;
+}
+main p:last-child{
+    margin: 10px 0px;
+    opacity: 0.8;
+}
+.product-item:hover .details button{
+    background-color: #000;
+}
+.product-item:hover .photo{
+    background-image: url("../images/chair2.jpg");
+}
+.product-item:hover .details a{
+    color: #7b5244;
+}
+.product-item:hover .photo span:nth-child(1){
+    display: none;
+}
+.product-item:hover .photo span:nth-child(2){
+    display: block;
+}
+.product-item:hover .icons{
+    display: block;
+}
+
+.product .product-item .photo:nth-of-type(2){
+    background-image: url("../images/chair2.jpg");
+}
+
+.product .product-item:nth-of-type(3) .photo{
+    background-image: url("../images/chair3.jpg");
+}
+.product .product-item:nth-of-type(3):hover .photo{
+    background-image: url("../images/chair4.jpg");
+}
+.product .product-item:nth-of-type(5) .photo{
+    background-image: url("../images/chair2.jpg");
+}
+.product .product-item:nth-of-type(5):hover .photo{
+    background-image: url("../images/chair1.jpg");
+}
+.product .product-item:nth-of-type(7) .photo{
+    background-image: url("../images/chair3.jpg");
+}
+.product .product-item:nth-of-type(7):hover .photo{
+    background-image: url("../images/chair4.jpg");
+}
+.product .product-item:nth-of-type(9) .photo{
+    background-image: url("../images/chair5.jpg");
+}
+.product .product-item:nth-of-type(9):hover .photo{
+    background-image: url("../images/chair6.jpg");
+}
+.product .product-item:nth-of-type(11) .photo{
+    background-image: url("../images/chair6.jpg");
+}
+.product .product-item:nth-of-type(11):hover .photo{
+    background-image: url("../images/chair1.jpg");
+}
+.product .product-item:nth-of-type(13) .photo{
+    background-image: url("../images/chair1.jpg");
+}
+.product .product-item:nth-of-type(13):hover .photo{
+    background-image: url("../images/chair2.jpg");
+}
+.product .product-item:nth-of-type(15) .photo{
+    background-image: url("../images/chair2.jpg");
+}
+.product .product-item:nth-of-type(15):hover .photo{
+    background-image: url("../images/chair3.jpg");
+}
