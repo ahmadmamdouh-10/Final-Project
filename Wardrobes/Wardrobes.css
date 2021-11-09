@@ -1,3 +1,4 @@
+/* bootstrap */
 body
 {
     font-family: 'Roboto',sans-serif;
@@ -7,15 +8,79 @@ body
     letter-spacing: .5px;
 }
 
+.discount
+{
+    margin:0;
+    padding: 0;
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.price
+{
+    color: #000000;
+    font-weight: 600;
+}
+
+.imgSide
+{
+    opacity: .7;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgSide:hover
+{
+    opacity: 0.4;
+    transition: opacity 1s;
+    cursor:pointer;
+    transform: scaleX(.8);
+    transition: transform 0.2s;
+}
+
+
+/* left side Header */
+
+.lftShowSd a:hover{
+    color: #7b5244;
+    cursor: pointer;
+}
+
+.lftShowSd i{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.lftShowSd i:hover{
+    color: #7b5244;
+}
+
+.lftShowSd i:active{
+    color: #7b5244;
+}
+
+#df
+{
+    color: #7b5244;
+}
+
+
 /* Left Side */
-#chairImg
+/* #chairImg
 {
     width: 80%;
     margin-left: 37px;
     padding: 0;
     margin-top: 30px;
-}
+} */
 
+
+
+/* Pure CSS */
+/* 
 #SpecialsTable
 {
     margin-top: 30px;
@@ -57,7 +122,7 @@ body
     margin: 9px 0px 8px;
 }
 
-/* Content */
+/* Content 
 
 .ContentW
 {
@@ -66,17 +131,16 @@ body
     width: 75%;
 }
 
-/* Row Header */
+/* Row Header 
 .ContentW h1{
     color: black;
     margin-bottom: 15px;
     margin-top: 0px;
     font-size: 22px;
-    /* text-transform: capitalize; */
     font-weight: 549;
 }
 
-/* left side Header */
+/* left side Header 
 .lftShowSd
 {
     float: left;
@@ -112,7 +176,6 @@ body
     margin: 0 0;
     color: rgb(70, 68, 68);
     font-size: 14px;
-/* margin-bottom: 5px; */
 }
 
 .link:hover
@@ -120,7 +183,7 @@ body
     color: #7b5244;
 }
 
-/* right side */
+/* right side 
 
 .showSort
 {
@@ -147,7 +210,6 @@ body
 {
     border: rgb(199, 197, 197) solid 1px;
     
-    /* opacity: .5; */
     height: 34px;
     font-size: 12px;
     color: black;
@@ -169,8 +231,6 @@ body
 {
     border: none;
     display: inline-block;
-    /* margin: 10px 0 12px;
-    padding: 0 0 10px; */
     width: 100%;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -197,7 +257,7 @@ body
 } */
 
 
-/* Product */
+/* Product 
 .star
 {
     display:block;
@@ -207,7 +267,6 @@ body
 .products-items img
 {
     width: 304px;
-    /* height: 00px; */
 }
 
 .product-overlay ul li
@@ -235,7 +294,6 @@ body
 {
     background-color: #7b5244;
     color: #ffffff;
-    /* background: #7b5244; */
     float: right;
     font-weight: 400;
     font-size: 12px;
@@ -263,7 +321,6 @@ body
     text-transform: capitalize;
     top: 12px;
     background: #000000;
-    /* display: block; */
 }
 
 .product-overlay ul li
@@ -290,19 +347,17 @@ body
 .base:hover
 {
     opacity: 0;
-    /* display: none; */
 }
 
-/* footer Content */
+/* footer Content 
 #footerContent
 {
     display: inline-block;
     margin: 10px 0 10px ;
     margin-bottom: 0;
     padding-top: 15px;
-    /* padding-bottom: 0; */
     width: 100%;
     background: none;
     border-top: 1px solid #e5e5e5;
     color: #888;
-}
+} */
