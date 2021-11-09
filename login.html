@@ -12,6 +12,13 @@
     <link rel="icon" type="image/x-icon" target="_blank" href="cart.png">
 
     <link rel="stylesheet" href="Login/login.css">
+
+    <!-- Bootstrab -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -120,110 +127,85 @@
         </div>
     </nav>
 
-    <div class="row">
-        <aside>
-            <table>
-                <tr id="accountsd">
-                    <th>Account</th>
-                </tr>
-                <tr>
-                    <td style="padding-top: 25px;"><a href="">Login</a></td>
-                </tr>
-                <tr>
-                    <td><a href="Register.html">Register</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Forgotten Password</a></td>
-                </tr>
-                <tr>
-                    <td><a href="login.html">My Account</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Address Book</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Wish List</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Order History</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Downloads</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Recurring Payments</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Reward Points</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Transactions</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Returns</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Newsletter</a></td>
-                </tr>
-            </table>
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <aside class="col-xl-2 col-lg-10 col-md-10 col-sm-10 mt-md-5 p-0">
+                <div class="card rounded-0">
+                    <div class="card-header fw-bold pt-3" style="background-color: #7b5244; height: 55px;">
+                        Account
+                    </div>
+                    <div class="card-body list-group">
+                        <a href="">Login</a>
+                        <a href="Register.html">Register</a>
+                        <a href="">Forgotten Password</a>
+                        <a href="login.html">My Account</a>
+                        <a href="">Address Book</a>
+                        <a href="">Wish List</a>
+                        <a href="">Order History</a>
+                        <a href="">Downloads</a>
+                        <a href="">Recurring Payments</a>
+                        <a href="">Reward Points</a>
+                        <a href="">Transactions</a>
+                        <a href="">Returns</a>
+                        <a href="">Newsletter</a>
+                    </div>
+                </div>
 
-            <table id="informtable">
-                <tr id="informationLogin">
-                    <th>Information</th>
-                </tr>
-                <tr>
-                    <td style="padding-top: 25px;"><a href="aboutus.html">About Us</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Delivery Information</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Privacy Policy</a></td>
-                </tr>
-                <tr>
-                    <td><a href="">Terms & Conditions</a></td>
-                </tr>
-                <tr>
-                    <td><a href="ContactUs.html">Contact Us</a></td>
-                </tr>
-                <tr>
-                    <td><a href="sitemap.html">Site Map</a></td>
-                </tr>
-            </table>
-        </aside>
+                <div class="card rounded-0 mt-3">
+                    <div class="card-header text-dark fw-bold pt-3" style="height: 55px;">
+                        Information
+                    </div>
+                    <div class="card-body list-group">
+                        <a href="aboutus.html">About Us</a>
+                        <a href="">Delivery Information</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms & Conditions</a>
+                        <a href="ContactUs.html">Contact Us</a>
+                        <a href="sitemap.html">Site Map</a>
+                    </div>
+                </div>
+            </aside>
 
-        <div id="newCust">
-            <h3>New Custumer</h3>
-            <h5><strong>Register Account</strong></h5>
-            <p>
-                By creating an account you will be able to shop faster,be up to date
-                on an order's status, and keep track of the orders you have
-                previously made.
-            </p>
-            <input class="button" type="button" src="Register.html" value="Continue">
+            <div class="col-xl-5 col-lg-10 col-md-10 col-sm-10 mt-md-5">
+                <div class="card rounded-0">
+                    <div class="card-body">
+                        <h5><strong>New Custumer</strong></h5>
+                        <p class="text-secondary pt-3 head"><strong>Register Account</strong></p>
+                        <p class="text-secondary parg">
+                            By creating an account you will be able to shop faster,be up to date
+                            on an order's status, and keep track of the orders you have
+                            previously made.
+                        </p>
+                        <button class="text-white border-0 py-2 px-4" src="Register.html">Continue</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-5 col-lg-10 col-md-10 col-sm-10 mt-md-5" >
+                <div class="card rounded-0">
+                    <div class="card-body">
+                        <h5><strong>Returning Customer</strong></h5>
+                        <p class="text-secondary pt-3 head"><strong>I am a returning customer</strong></p>
+
+                        <form action="home.html" method="GET">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-Mail Address</label>
+                                <input type="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" placeholder="E-Mail Address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="Password" placeholder="Password">
+                            </div>
+                            <div class="mb-3 form-check p-0">
+                                <a href="" id="fgtpass" style="padding: 0;">Forgotten Password</a>    
+                            </div>
+                            <button class="text-white border-0 py-2 px-4" type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="login">
-            <h3>Returning Customer</h3>
-            <h5><strong>I am a returning customer</strong></h5>
-            <form action="home.html" method="GET">
-                <div>
-                    <label>E-Mail Address</label>
-                    <input class="txt" id="email" type="email" name="" placeholder="E-Mail Address">
-                </div>
-
-                <div>
-                    <label>Password</label>
-                    <input class="txt" type="password" name="password" placeholder="Password">
-                </div>
-                <div id="fgtpassdiv">
-                    <a href="" id="fgtpass">Forgotten Password</a>
-                </div>
-                <div>
-                    <input class="button" type="submit" value="Login">
-                </div>
-            </form>
-        </div>
-        <div style="clear: both;"></div>
     </div>
 
     <!-- footer -->

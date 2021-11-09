@@ -290,6 +290,7 @@ body
 .base:hover
 {
     opacity: 0;
+    /* display: none; */
 }
 
 /* footer Content */

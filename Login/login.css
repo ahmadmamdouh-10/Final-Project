@@ -1,8 +1,59 @@
+/* With Bootstrab */
 * {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+
+.card-body a {
+	color: #262626;
+	text-decoration: none;
+	padding: 5px 25px;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.card-body a:hover {
+	color: #7b5244;
+}
+
+.card-header
+{
+	background: #7b5244;
+	color: white;
+	height: 45px;
+}
+
+button
+{
+	background: #7b5244;
+}
+
+.head{
+	font-weight: 600;
+	font-size: 13px;
+	color: gray;
+}
+
+
+.parg
+{
+	color: gray;
+	font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: .5px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #262626;
+}
+
+/* PureCSS */
+
+/* 
 
 aside {
 	float: left;
@@ -31,7 +82,6 @@ aside {
 }
 
 #account {
-	/* height: 100px; */
 	background-color: #f6f6f6;
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
@@ -105,7 +155,6 @@ table tr td a:hover, .show a:hover {
 	padding: 15px;
 	margin-bottom: 20px;
 	background-color: #fff;
-	/* height: 400px; */
 	margin: 0px 15px
 }
 
@@ -189,4 +238,4 @@ label {
 .button:hover {
 	background-color: black;
 }
-
+ */
