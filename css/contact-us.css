@@ -271,3 +271,47 @@ main form input[type="submit"]{
     margin-right: -25px;
 }
 /* end main  */
+
+@media only screen and (max-width: 1025px) {
+    aside {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    aside {
+        width: 30%;
+    }
+
+    .contact-us {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .header_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header_left,
+    .header_center,
+    .header_right {
+        width: 100%;
+    }
+
+    .body_container {
+        flex-direction: column;
+    }
+
+    aside {
+        order: 1;
+        width: 100%;
+    }
+
+    section {
+        order: 2;
+        width: 100%;
+    }
+}
