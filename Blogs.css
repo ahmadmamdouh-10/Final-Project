@@ -130,14 +130,13 @@ header {
 .body_container {
   /* border: 1px solid black; */
   display: flex;
-  flex-direction: row;
   /* background:cornflowerblue; */
   width: 80%;
   margin: 40px auto;
   /* justify-content: center; */
 }
 aside {
-  width: 25%;
+  width: 18%;
 }
 .first,
 .secound {
@@ -152,8 +151,13 @@ aside {
   font-size: 15px;
   letter-spacing: 0.5px;
 }
-.secound {
+.secound,
+.center {
   margin-top: 20px;
+}
+.center > a > img {
+  /* border: 1px solid red; */
+  width: 100%;
 }
 .secound > h4 {
   background-color: #f6f6f6;
@@ -163,10 +167,6 @@ aside {
   font-weight: bold;
   font-size: 15px;
   letter-spacing: 0.5px;
-}
-section {
-  width: 75%;
-  /* margin: auto; */
 }
 .first uL,
 .secound ul {
@@ -179,54 +179,56 @@ section {
   color: black;
   margin: 20px;
 }
+section {
+  width: 80%;
+  /* border: 1px solid; */
+}
+
 .section_container {
   margin: 0 0 0 25px;
   /* border: 1px solid red; */
 }
-.section_container h1 {
-  margin: auto;
+.section_container .galry {
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
 }
-.section_container span {
-  color: silver;
+.section_container .galry > div > img {
+  /* border: 2px dotted green; */
+  width: 100%;
+}
+.comment {
+  /* border: 1px solid blue; */
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+.calender {
+  background: url(calender.jpg) no-repeat scroll center 4px transparent;
+  width: 30px;
+  height: 30px;
+  background-position-x: center;
+  background-position-y: -137px;
+  display: block;
+  margin-right: 10px;
+  /* border: 1px solid gold; */
+}
+.b {
+  color: gray;
+  margin-top: 15px;
 }
 .section_container a {
   text-decoration: none;
   color: black;
 }
-legend {
-  font-weight: bold;
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-/* form_section */
-.form_content {
-  display: flex;
-  padding: 15px;
-  /* border: 1px solid red; */
-}
-.form_content > label {
-  width: 20%;
-  margin-top: 5px;
-}
-.form_content > div {
-  /* border: 1px solid green; */
-  width: 80%;
-}
-.star {
-  color: red !important;
-  font-weight: bold;
-}
-input[type="text"] {
-  /* border: 1px solid; */
-  width: 100%;
-  padding: 10px;
+.section_container a:hover {
+  text-decoration: none;
+  color: rgba(138, 70, 18, 0.837);
 }
 
 input[value="continue"] {
   border: 1px solid;
   padding: 10px 15px;
-  background-color: rgb(95, 44, 20);
+  background-color: #7b5244;
   color: snow;
   margin-left: 10px;
   cursor: pointer;
@@ -236,10 +238,102 @@ input[value="continue"]:hover {
   background-color: black;
 }
 
+/*.footer-section */
+
+.contact-us {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  /* grid-template-columns: auto auto auto auto auto; */
+}
+
+.contact-desc {
+  flex: 0.7;
+  /* width: 40%; */
+  padding: 20px;
+  /* position: relative; */
+  /* position: relative; */
+  padding-left: 70px;
+  margin-bottom: 20px;
+  margin-right: 35px;
+}
+
+.contact-desc .top img {
+  padding: 5px;
+}
+
+.contact-desc .top span img {
+  padding: 5px;
+  /* position: relative; */
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-desc .top + p {
+  line-height: 1.9;
+  padding: 40px 0;
+  color: #888888;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 26px;
+  margin-bottom: 38px;
+}
+
+.information {
+  flex: 0.5;
+  /* flex: 35% 20% 20% 25%; */
+  height: 300px;
+  /* position: relative; */
+}
+
+.information-table {
+  /* position: absolute; */
+  top: 20px;
+  left: 15px;
+  padding: 20px;
+  padding-left: 0;
+}
+
+.information-table ul li,
+.information-table ul li a {
+  color: grey;
+  padding-bottom: 15px;
+}
+
+.information-table span i {
+  padding: 7px;
+}
+
+#emailfooter {
+  background-color: black;
+  font-size: 13px;
+  border: 0;
+  border-bottom: 1px solid #3a3a3a;
+  padding: 22px 45px 10px 10px;
+  height: 45px;
+  color: #f6f6f6;
+  font-weight: 400;
+  width: 80%;
+}
+
+#emailfooter:focus {
+  outline: none;
+  /* border:0;
+      border-bottom: 1px solid #3a3a3a; */
+}
+#Subscribe {
+  margin-right: 30px;
+}
+
+#emailSend {
+  height: 45px;
+  width: 40px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
 @media only screen and (max-width: 1025px) {
-  body {
-    /* background-color: red; */
-  }
   aside {
     width: 30%;
   }
@@ -248,15 +342,13 @@ input[value="continue"]:hover {
   aside {
     width: 30%;
   }
+
   .contact-us {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column !important;
+    text-align: center !important;
   }
 }
 @media only screen and (max-width: 456px) {
-  /* body {
-    background-color: red;
-  } */
   .header_container {
     flex-direction: column;
     text-align: center;
@@ -276,9 +368,5 @@ input[value="continue"]:hover {
   section {
     order: 2;
     width: 100%;
-  }
-  .contact-us {
-    flex-direction: column;
-    text-align: center;
   }
 }
