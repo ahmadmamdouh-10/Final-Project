@@ -67,6 +67,18 @@ body
     color: #7b5244;
 }
 
+.link
+{
+    color: rgb(70, 68, 68);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: #7b5244;
+}
+
 
 /* Left Side */
 /* #chairImg
@@ -257,7 +269,7 @@ body
 } */
 
 
-/* Product 
+/* Product */
 .star
 {
     display:block;

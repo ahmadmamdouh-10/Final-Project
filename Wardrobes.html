@@ -167,21 +167,24 @@
                         <div class="p-3">
                             <img class="imgSide" src="Wardrobes/Images/08-85x101.jpg">
                             <div class="py-2"><a class="px-0" href="">Commodi Consequatur</a></div>
-                            <div class="pb-0"><span class="price">$134.00</span><span class="discount"> $136.40</span></div>
+                            <div class="pb-0"><span class="price">$134.00</span><span class="discount"> $136.40</span>
+                            </div>
                             <div class="py-1"><a class="px-0" href="">Add To Cart</a></div>
                         </div>
 
                         <div class="p-3">
                             <img class="imgSide" src="Wardrobes/Images/10-85x101.jpg">
                             <div class="py-2"><a class="px-0" href="">Consectetur Hampden</a></div>
-                            <div class="pb-0"><span class="price">$110.00</span><span class="discount"> $119.60</span></div>
+                            <div class="pb-0"><span class="price">$110.00</span><span class="discount"> $119.60</span>
+                            </div>
                             <div class="py-1"><a class="px-0" href="">Add To Cart</a></div>
                         </div>
 
                         <div class="p-3">
                             <img class="imgSide" src="Wardrobes/Images/11-85x101.jpg">
                             <div class="py-2"><a class="px-0" href="">Exercitat Virginia</a></div>
-                            <div class="pb-0"><span class="price"></span>$104.00<span class="discount"> $116.00</span></div>
+                            <div class="pb-0"><span class="price"></span>$104.00<span class="discount"> $116.00</span>
+                            </div>
                             <div class="py-1"><a class="px-0" href="">Add To Cart</a></div>
                         </div>
 
@@ -195,19 +198,20 @@
                 <div class="container-fluid">
                     <h1 class="mb-0 fs-4 fw-light">Wardrobes</h1>
                     <div class="row">
-                        <!-- <section class="mainhHeader"> -->  
-                            <!-- left Side -->
-                            <div class="lftShowSd col-7">
-                                <a><i class="fas fa-th-large py-5 pe-2 fs-4"></i></a>
-                                <a><i id="df" class="fas fa-list py-5 pe-2 fs-4"></i></a>
-                                <a>Product Compare (0)</a>
-                            </div>
-        
-                            <!-- Right Side -->
-                            <div class="showSort col-5 mt-5">
+                        <!-- <section class="mainhHeader"> -->
+                        <!-- left Side -->
+                        <div class="lftShowSd col-xl-6 col-lg-10 col-md-10 col-sm-10 p-0">
+                            <a><i class="fas fa-th-large py-5 pe-2 fs-4"></i></a>
+                            <a><i id="df" class="fas fa-list py-5 pe-2 fs-4"></i></a>
+                            <a>Product Compare (0)</a>
+                        </div>
+
+                        <!-- Right Side -->
+                        <div class="showSort col-xl-6 col-lg-10 col-md-10 col-sm-10 mt-md-5 mt-5 p-0">
+                            <form class="form">
                                 <span id="sortSpan">
                                     <label for="sort">Sort By:</label>
-                                    <select name="sort" id="sort">
+                                    <select class="form-select w-50 m-0 d-inline-block" name="sort" id="sort">
                                         <option value="1">Default</option>
                                         <option value="2">Name (A - Z)</option>
                                         <option value="3">Name (Z - A)</option>
@@ -219,10 +223,10 @@
                                         <option value="9">Model (Z - A)</option>
                                     </select>
                                 </span>
-        
+
                                 <span id="showSpan">
                                     <label for="show">Show:</label>
-                                    <select name="show" id="show">
+                                    <select class="form-select w-25 m-0 d-inline-block" name="show" id="show">
                                         <option value="1">12</option>
                                         <option value="2">25</option>
                                         <option value="3">50</option>
@@ -230,212 +234,219 @@
                                         <option value="5">100</option>
                                     </select>
                                 </span>
-                            </div>
+                            </form>
+                        </div>
+
+                        <hr>
                         <!-- </section> -->
                     </div>
                 </div>
-             
-                <!-- <hr> -->
 
                 <!-- Main Content -->
-                <section>
-                    <div class="products-items">
-                        <div class="product-item">
-                            <div class="product-img">
-                                <div class="base">
-                                    <img src="images/chair3.jpg" alt="" />
-                                    <div class="off">8 % off</div>
-                                </div>
-                                <div class="product-overlay">
-                                    <img src="images/chair4.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
-                                    <div class="sale">sale</div>
-                                </div>
-                                <div class="product-info">
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Consectetur Hampden</a></div>
-                                        <div><span class="price">$110.00</span><span class="discount"> $119.60</span>
+                <section class="container-fluid">
+                    <div class="row">
+                        <div class="products-items row">
+                            <div style="width: 31.333333%;" class="product-item col-xl-4 col-lg-12 col-md-12 col-sm-12"  >
+                                <div class="product-img">
+                                    <div class="base">
+                                        <img src="images/chair3.jpg" alt="" />
+                                        <div class="off">8 % off</div>
+                                    </div>
+                                    <div class="product-overlay">
+                                        <img src="images/chair4.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                        <div class="sale">sale</div>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Consectetur Hampden</a></div>
+                                            <div><span class="price">$110.00</span><span class="discount">
+                                                    $119.60</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="images/chair7.jpg" alt="" />
-                                <div class="off">11 % off</div>
-                                <div class="product-overlay">
-                                    <img src="images/chair6.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
-                                    <div class="sale">sale</div>
-                                </div>
-                                <div class="product-info">
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Exercitat Virginia</a></div>
-                                        <div><span class="price">$104.00</span><span class="discount"> $116.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="images/chair5.jpg" alt="" />
-                                <div class="product-overlay">
-                                    <img src="images/chair6.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="product-info">
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Laborum Eveniet</a></div>
-                                        <div><span class="price">$97.99</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="products-items">
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="images/chair9.jpg" alt="" />
-                                <div class="product-overlay">
-                                    <img src="images/chair8.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="product-info">
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Necessitatibus</a></div>
-                                        <div><span class="price">$119.60</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="images/chair10.jpg" alt="" />
-                                <div class="product-overlay">
-                                    <img src="images/chair1.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
-                                </div>
-                                <div class="product-info">
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="far fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Occasion Praesentium</a></div>
-                                        <div><span class="price">$105.20</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="images/chair11.jpg" alt="" />
-                                <div class="off">7 % off</div>
-                                <div class="product-overlay">
+                            <div style="width: 31.333333%;" class="product-item col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                                <div class="product-img">
                                     <img src="images/chair7.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
-                                    <div class="sale">sale</div>
+                                    <div class="off">11 % off</div>
+                                    <div class="product-overlay">
+                                        <img src="images/chair6.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                        <div class="sale">sale</div>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Exercitat Virginia</a></div>
+                                            <div><span class="price">$104.00</span><span class="discount">
+                                                    $116.00</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="product-info">
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Reprehenderit Aliquam</a></div>
-                                        <div><span class="price">$110.00</span><span class="discount"> $118.40</span>
+                            </div>
+                            <div style="width: 31.333333%;" class="product-item col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                                <div class="product-img">
+                                    <img src="images/chair5.jpg" alt="" />
+                                    <div class="product-overlay">
+                                        <img src="images/chair6.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Laborum Eveniet</a></div>
+                                            <div><span class="price">$97.99</span></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="products-items">
-                        <div class="product-item">
-                            <div class="product-img">
-                                <img src="images/chair8.jpg" alt="" />
-                                <div class="product-overlay">
-                                    <img src="images/chair5.jpg" alt="" />
-                                    <ul class="list-unstyled">
-                                        <li><i class="icon fa fa-heart fa-lg"></i></li>
-                                        <li><i class="icon fa fa-eye fa-lg"></i></li>
-                                        <li><i class="icon fa fa-align-left fa-lg"></i></li>
-                                        <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
-                                    </ul>
+                        <div class="products-items row p-0">
+                            <div class="product-item col-xl-4 col-lg-12 col-md-12 col-sm-12" style="width: 31.333333%;">
+                                <div class="product-img">
+                                    <img src="images/chair9.jpg" alt="" />
+                                    <div class="product-overlay">
+                                        <img src="images/chair8.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Necessitatibus</a></div>
+                                            <div><span class="price">$119.60</span></div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="product-info">
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <i class="active fa fa-star fa-sm"></i>
-                                    <div>
-                                        <div><a class="link" href="">Voluptates Repudiandae</a></div>
-                                        <div><span class="price">$140.00</span></div>
+                            </div>
+                            <div class="product-item  col-xl-4 col-lg-12 col-md-12 col-sm-12" style="width: 31.333333%;">
+                                <div class="product-img">
+                                    <img src="images/chair10.jpg" alt="" />
+                                    <div class="product-overlay">
+                                        <img src="images/chair1.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="far fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Occasion Praesentium</a></div>
+                                            <div><span class="price">$105.20</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item  col-xl-4 col-lg-12 col-md-12 col-sm-12" style="width: 31.333333%;">
+                                <div class="product-img">
+                                    <img src="images/chair11.jpg" alt="" />
+                                    <div class="off">7 % off</div>
+                                    <div class="product-overlay">
+                                        <img src="images/chair7.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                        <div class="sale">sale</div>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Reprehenderit Aliquam</a></div>
+                                            <div><span class="price">$110.00</span><span class="discount">
+                                                    $118.40</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-items row p-0">
+                            <div class="product-item col-xl-4 col-lg-12 col-md-12 col-sm-12" style="width: 31.333333%;">
+                                <div class="product-img">
+                                    <img src="images/chair8.jpg" alt="" />
+                                    <div class="product-overlay">
+                                        <img src="images/chair5.jpg" alt="" />
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon fa fa-heart fa-lg"></i></li>
+                                            <li><i class="icon fa fa-eye fa-lg"></i></li>
+                                            <li><i class="icon fa fa-align-left fa-lg"></i></li>
+                                            <li><i class="icon fa fa-cart-plus fa-lg"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-info">
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <i class="active fa fa-star fa-sm"></i>
+                                        <div>
+                                            <div><a class="link" href="">Voluptates Repudiandae</a></div>
+                                            <div><span class="price">$140.00</span></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </section>
 
                 <!-- footer of Content -->
                 <section id="footerContent">
+                    <hr>
                     <p>Showing 1 to 7 of 7 (1 Pages)</p>
                 </section>
             </section>
